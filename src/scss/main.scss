@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'utilities';
+
+body {
+  background-color: $base-color;
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+  background-color: $yellow;
+  width: 200px;
+  height: 100px;
+  @include default-position(15px, 0 auto);
+}

@@ -1,0 +1,4 @@
+@mixin default-position($p, $m) {
+  padding: $p;
+  margin: $m;
+}
